@@ -1,0 +1,22 @@
+Mi programa consta de 5 clases divididas las cuales son
+Iron man //1
+Naruto //2
+GTA V//3
+Counter Strike //4
+Mario Bros//5
+
+divididas todas en cs diferentes y ordenados
+si se dirige a program.cs 
+vera el main que ejecuta todas las clases al momento solo esta activo ironMan
+a pesar de que se pueden activar todas a la vez quitandole los //
+para correr abra una nueva terminal y digite (dotnet build)
+una vez compilado digite (dotnet run)para correr el programa y empezar a rellenar las encuestas
+  static void Main(string[] args)
+        {
+            ironMan(args);
+            //naruto(args);
+            //gtav(args);
+            //counterstrike(args);
+            //mariobros(args);
+
+        }
